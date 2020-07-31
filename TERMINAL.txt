@@ -1,0 +1,149 @@
+-------------------------
+Parâmetros
+-------------------------
+Modelo
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_71 (InputLayer)        [(None, 64, 64, 1)]       0         
+_________________________________________________________________
+conv2d_64 (Conv2D)           (None, 62, 62, 4)         40        
+_________________________________________________________________
+max_pooling2d_64 (MaxPooling (None, 31, 31, 4)         0         
+_________________________________________________________________
+flatten_70 (Flatten)         (None, 3844)              0         
+_________________________________________________________________
+dense_140 (Dense)            (None, 4096)              15749120  
+_________________________________________________________________
+dense_141 (Dense)            (None, 2)                 8194      
+=================================================================
+Total params: 15,757,354
+Trainable params: 15,757,354
+Non-trainable params: 0
+_________________________________________________________________
+-------------------------
+Treinando
+step: 0, loss: 0.036068, acc: 1.000000
+step: 1, loss: 0.266817, acc: 1.000000
+step: 2, loss: 0.491586, acc: 0.875000
+step: 3, loss: 0.347615, acc: 0.750000
+step: 4, loss: 0.392163, acc: 0.625000
+step: 5, loss: 0.144944, acc: 1.000000
+step: 6, loss: 0.630827, acc: 0.750000
+step: 7, loss: 0.577285, acc: 0.625000
+step: 8, loss: 0.476662, acc: 0.750000
+step: 9, loss: 0.366359, acc: 0.750000
+step: 10, loss: 0.227025, acc: 0.875000
+step: 11, loss: 0.306310, acc: 0.875000
+step: 12, loss: 0.140290, acc: 1.000000
+step: 13, loss: 0.202917, acc: 0.875000
+step: 14, loss: 0.195914, acc: 1.000000
+step: 15, loss: 0.150283, acc: 1.000000
+step: 16, loss: 0.450763, acc: 0.875000
+step: 17, loss: 0.177822, acc: 1.000000
+step: 18, loss: 0.301072, acc: 0.875000
+step: 19, loss: 0.042012, acc: 1.000000
+step: 20, loss: 0.107196, acc: 1.000000
+step: 21, loss: 0.260208, acc: 0.875000
+step: 22, loss: 0.169028, acc: 0.875000
+step: 23, loss: 0.044157, acc: 1.000000
+step: 24, loss: 0.084660, acc: 1.000000
+step: 25, loss: 0.173714, acc: 1.000000
+step: 26, loss: 0.184454, acc: 0.875000
+step: 27, loss: 0.188447, acc: 1.000000
+step: 28, loss: 0.087400, acc: 1.000000
+step: 29, loss: 0.122235, acc: 1.000000
+step: 30, loss: 0.062721, acc: 1.000000
+step: 31, loss: 0.016561, acc: 1.000000
+step: 32, loss: 0.019843, acc: 1.000000
+step: 33, loss: 0.054555, acc: 1.000000
+step: 34, loss: 0.007834, acc: 1.000000
+step: 35, loss: 0.130648, acc: 0.875000
+step: 36, loss: 0.054660, acc: 1.000000
+step: 37, loss: 0.081851, acc: 1.000000
+step: 38, loss: 0.010380, acc: 1.000000
+step: 39, loss: 0.015765, acc: 1.000000
+step: 40, loss: 0.007557, acc: 1.000000
+step: 41, loss: 0.008895, acc: 1.000000
+step: 42, loss: 0.178336, acc: 0.875000
+step: 43, loss: 0.016412, acc: 1.000000
+step: 44, loss: 0.034449, acc: 1.000000
+step: 45, loss: 0.034820, acc: 1.000000
+step: 46, loss: 0.075228, acc: 1.000000
+step: 47, loss: 0.026131, acc: 1.000000
+step: 48, loss: 0.014211, acc: 1.000000
+step: 49, loss: 0.076396, acc: 1.000000
+step: 50, loss: 0.012200, acc: 1.000000
+step: 51, loss: 0.001631, acc: 1.000000
+step: 52, loss: 0.024555, acc: 1.000000
+step: 53, loss: 0.009188, acc: 1.000000
+step: 54, loss: 0.077593, acc: 1.000000
+step: 55, loss: 0.032695, acc: 1.000000
+step: 56, loss: 0.032914, acc: 1.000000
+step: 57, loss: 0.019358, acc: 1.000000
+step: 58, loss: 0.055443, acc: 1.000000
+step: 59, loss: 0.100632, acc: 1.000000
+step: 60, loss: 0.052517, acc: 1.000000
+step: 61, loss: 0.018489, acc: 1.000000
+step: 62, loss: 0.008234, acc: 1.000000
+step: 63, loss: 0.087289, acc: 1.000000
+step: 64, loss: 0.010333, acc: 1.000000
+step: 65, loss: 0.013279, acc: 1.000000
+step: 66, loss: 0.023013, acc: 1.000000
+step: 67, loss: 0.012867, acc: 1.000000
+step: 68, loss: 0.174773, acc: 0.875000
+step: 69, loss: 0.024807, acc: 1.000000
+step: 70, loss: 0.010794, acc: 1.000000
+step: 71, loss: 0.029036, acc: 1.000000
+step: 72, loss: 0.003974, acc: 1.000000
+step: 73, loss: 0.043075, acc: 1.000000
+step: 74, loss: 0.003689, acc: 1.000000
+step: 75, loss: 0.013026, acc: 1.000000
+step: 76, loss: 0.051485, acc: 1.000000
+step: 77, loss: 0.004172, acc: 1.000000
+step: 78, loss: 0.002152, acc: 1.000000
+step: 79, loss: 0.006765, acc: 1.000000
+step: 80, loss: 0.019445, acc: 1.000000
+step: 81, loss: 0.009938, acc: 1.000000
+step: 82, loss: 0.030424, acc: 1.000000
+step: 83, loss: 0.005472, acc: 1.000000
+step: 84, loss: 0.006481, acc: 1.000000
+step: 85, loss: 0.001753, acc: 1.000000
+step: 86, loss: 0.025301, acc: 1.000000
+step: 87, loss: 0.010713, acc: 1.000000
+step: 88, loss: 0.010562, acc: 1.000000
+step: 89, loss: 0.003494, acc: 1.000000
+step: 90, loss: 0.005504, acc: 1.000000
+step: 91, loss: 0.006464, acc: 1.000000
+step: 92, loss: 0.007757, acc: 1.000000
+step: 93, loss: 0.004409, acc: 1.000000
+step: 94, loss: 0.005384, acc: 1.000000
+step: 95, loss: 0.006289, acc: 1.000000
+step: 96, loss: 0.008131, acc: 1.000000
+step: 97, loss: 0.001050, acc: 1.000000
+step: 98, loss: 0.003446, acc: 1.000000
+step: 99, loss: 0.005183, acc: 1.000000
+-------------------------
+Testando
+test acc: 0.850000
+Imagem | Classificação
+0 | thumbsdown
+1 | thumbsdown
+2 | thumbsdown
+3 | thumbsup
+4 | thumbsdown
+5 | thumbsdown
+6 | thumbsdown
+7 | thumbsdown
+8 | thumbsdown
+9 | thumbsdown
+10 | thumbsup
+11 | thumbsup
+12 | thumbsup
+13 | thumbsup
+14 | thumbsup
+15 | thumbsdown
+16 | thumbsup
+17 | thumbsup
+18 | thumbsdown
+19 | thumbsup
