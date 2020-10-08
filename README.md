@@ -1,4 +1,4 @@
-## Desafio CERTI
+## Reconhecimento de Imagens
 
 Este algoritmo treina um modelo de rede neural para classificação de imagens de gestos de positivo (:thumbsup:) ou negativo (:thumbsdown:). 
 
@@ -89,7 +89,3 @@ Verifica-se que em alguns casos o modelo não definiu corretamente o tipo de ges
 ## Melhorias
 
 * Incluir mais imagens para o treinamento do algoritmo.
-
-## Agradecimento
-
-Agradeço a Fundação CERTI pela oportunidade de desenvolver esse desafio.
