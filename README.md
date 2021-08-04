@@ -43,7 +43,7 @@ O tamanho da imagem é definido pelo parâmetro `imSize` que representa 32x32 pi
 Considerações do modelo:
 
 * Foi utilizado um modelo de rede neural de convolução (CNN) por ser o mais apropriado para processamento de imagens.
-* Por ter poucas amostras de treinamento reduziu-se o tamanho das imagens ao máximo e para simplificar a tarefa foram utilizadas escalas de cinza, ao invez de RGB.
+* Por ter poucas amostras de treinamento reduziu-se o tamanho das imagens ao máximo e para simplificar a tarefa foram utilizadas escalas de cinza, ao invés de RGB.
 
 ## Treinamento e Teste
 
